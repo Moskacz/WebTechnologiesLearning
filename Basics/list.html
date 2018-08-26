@@ -79,6 +79,24 @@
                 <td>-7000</td>
             </tfoot>
         </table>
+        <h3>Form</h3>
+        <form>
+            <fieldset>
+                <legend>Your data:</legend>
+                <label>Name: <input name="name" type="text" required="required"/></label><br/>
+                <label>Age: <input name="age" type="number" required="required"/></label><br/>
+                <p>Gender:</p>
+                <label>Male<input type="radio" name="gender" value="male"/></label>
+                <label>Female<input type="radio" name="gender" value="female"/></label><br/>
+                <label>Country: </label>
+                <select name="country">
+                    <option value="pol">Poland</option>
+                    <option value="usa">USA</option>
+                </select>
+                <br/>
+                <input type="submit" value="Send"/>
+            </fieldset>
+        </form>
         <h3 id="bottom">Bottom</h3>
     </body>
 </html>
