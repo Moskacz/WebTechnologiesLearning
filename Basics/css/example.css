@@ -2,6 +2,14 @@ h1, h2, h3 {
     color: aqua;
 }
 
+#lorem_ipsum {
+    background-color: darkgreen;
+}
+
 p {
-    background-color: bisque;
+    background-color: antiquewhite;
+}
+
+form p {
+    background-color: red;
 }
