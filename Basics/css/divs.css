@@ -1,5 +1,6 @@
 #navigation {
     background-color: aqua;
+    min-height: 300px;
 }
 
 #left_column {
@@ -8,4 +9,10 @@
 
 #right_column {
     background-color: green;
+}
+
+#footer {
+    background-color: blanchedalmond;
+    height: 30px;
+    overflow: scroll;
 }
