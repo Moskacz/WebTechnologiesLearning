@@ -8,12 +8,22 @@
     border-radius: 10px;
 }
 
+#main_container {
+    background-color: aqua;
+    text-align: center;
+}
+
 #left_column {
     background-color: red;
+    width: 49%;
+    min-width: 400px;
+    display: inline-block;
 }
 
 #right_column {
     background-color: green;
+    width: 50%;
+    display: inline-block;
 }
 
 #footer {
