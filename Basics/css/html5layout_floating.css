@@ -1,12 +1,13 @@
 #left {
     width: 50%;
-    background-color: azure;
+    background-image: -webkit-linear-gradient(#336633, #66cccc);
     float: left;
 }
 
 #right {
     width: 50%;
     background-color: blanchedalmond;
+    background-image: -webkit-linear-gradient(#666666, #ffffff);
     float: left;
 }
 
