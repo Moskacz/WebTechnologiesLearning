@@ -1,13 +1,11 @@
 #left {
-    width: 100px;
-    height: 100px;
+    width: 50%;
     background-color: azure;
     float: left;
 }
 
 #right {
-    width: 100px;
-    height: 120px;
+    width: 50%;
     background-color: blanchedalmond;
     float: left;
 }
