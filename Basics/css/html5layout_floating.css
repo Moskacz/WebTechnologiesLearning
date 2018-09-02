@@ -1,0 +1,20 @@
+#left {
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    float: left;
+}
+
+#right {
+    width: 100px;
+    height: 120px;
+    background-color: blanchedalmond;
+    float: left;
+}
+
+#container {
+    background-color: greenyellow;
+    border: 1px solid #665544;
+    overflow: auto;
+    width: 100%;
+}
