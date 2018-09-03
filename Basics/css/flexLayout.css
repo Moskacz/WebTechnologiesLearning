@@ -1,11 +1,31 @@
 #navigation {
-    background-color: bisque;
+    background: deepskyblue;
+    list-style: none;
+
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 li.nav_item {
     background-color: aquamarine;
     padding: 5px;
-    margin: 20px;
+    margin: 5px;
+}
+
+@media all and (max-width: 800px) {
+    #navigation {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+
+    .nav_item {
+        text-align: center;
+    }
 }
