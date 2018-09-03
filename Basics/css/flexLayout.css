@@ -1,0 +1,11 @@
+#navigation {
+    background-color: bisque;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+li.nav_item {
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 20px;
+}
